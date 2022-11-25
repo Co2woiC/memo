@@ -1,0 +1,167 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+}
+
+h1{ 
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-left:5px solid black;
+    border-bottom: 1px solid black;
+    /* background-color:#f1f1f1;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px; */
+    width:100%;
+    font-size:x-large;
+}
+
+h2{
+    margin-top: 32px;
+    border-bottom: 1px dashed black;
+}
+
+h3{
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+header ul{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    list-style-type: none;
+    color: white;
+}
+
+header ul a{
+    color:white;
+    text-decoration: none;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 0px 50px;
+    line-height: 60px;
+}
+
+main{
+    margin-left: 10px;
+}
+
+.left{
+    float:left;
+    width: 70%;
+}
+
+/*
+
+.left img{
+    width: 100%;
+}
+
+.date{
+    margin-top: -10px;
+    padding-left: 1em;
+}
+
+.img_container{
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.img_and_txt{
+    width: 300px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.img_and_txt p{
+    margin: 0px;
+    padding: 0px;
+}
+
+*/
+
+.right{
+    float:left;
+    padding-left: 40px;
+    width: 25%;
+}
+
+.right ul{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.right li{
+    line-height: 3em;
+}
+
+footer{
+    clear: left;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 60px;
+}
+
+form{
+    margin: 0 auto 20px auto; 
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    width:100%;
+}
+
+form h2{
+    margin: 15px;
+    border: 0px;
+    border-left: 3px solid red;
+}
+
+form div{
+    padding:15px;
+}
+
+.text, textarea, .dropdown{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding: 4px 10px;
+    color:white;
+    background-color:#bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+.contents{
+    padding: 10px 20px;
+}
+
+.kiji{
+    margin: 5px auto; 
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    width:100%;
+}
+
+.handlename{
+    font-size: small;
+}
